@@ -14,8 +14,6 @@ class Solution:
                     break
             if match :
                 string += strs[0][i]
-            else:
-                return string
         return string
 
         
