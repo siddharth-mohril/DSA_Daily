@@ -20,5 +20,5 @@ class Solution:
         else:
             return False
             
-        # 5. Return True if the filing cabinets are identical, False otherwise
+
         return countS == countT
