@@ -30,15 +30,6 @@ class Solution:
         return False
 
 
-        # for i in range(len(s1)):
-        #     hashmap1[s1[i]]= hashmap1.get(s1[i],0)+1
-
-        # for i in range(len(s2)):
-        #     hashmap2[s2[i]]= hashmap2.get(s2[i],0)+1
-
-        # for i,r in hashmap2.items():
-        #     if i in hashmap1.keys():
-        #         print(i,r)
 
 
 
