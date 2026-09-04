@@ -1,9 +1,17 @@
 class Solution:
+    
     def isAnagram(self, s: str, t: str) -> bool:
+        hashmap1 = {}
+        hashmap2 = {}
         if len(s) != len(t):
             return False
-        count_s,count_t = {},{}
         for i in range(len(s)):
-            count_s[s[i]] = count_s.get(s[i],0) + 1
-            count_t[t[i]] = count_t.get(t[i],0) + 1
-        return count_s == count_t
+            hashmap1[s[i]] = hashmap1.get(s[i] , 0) + 1
+            hashmap2[t[i]] = hashmap2.get(t[i] , 0) + 1
+
+        if hashmap1 != hashmap2 :
+            return False
+        else:
+            return True
+        
+        
